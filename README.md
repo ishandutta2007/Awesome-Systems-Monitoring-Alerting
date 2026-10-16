@@ -89,90 +89,90 @@ The enterprise SaaS observability tier provides out-of-the-box integrations, aut
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source projects for self-hosting, data sovereignty, privacy compliance, and eliminating per-host commercial license fees. **Sorted in descending order of GitHub star count.**
+Curated open-source projects for self-hosting, data sovereignty, privacy compliance, and eliminating per-host commercial license fees. **Sorted in descending order of GitHub Stars_Count.**
 
-1. 🌟 **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)  
+1. 🌟 **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub_Stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)  
    **Self-hosted, responsive monitoring tool and status page platform.** Monitored protocols include HTTP(s), TCP, DNS, Ping, Docker containers, and Steam Game Servers. Supports 90+ notification services (Telegram, Discord, Slack, Webhooks) with multi-language UI, 2FA, and certificate expiry monitoring.
 
-2. 🌟 **[Netdata](https://github.com/netdata/netdata)** [![GitHub stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)  
+2. 🌟 **[Netdata](https://github.com/netdata/netdata)** [![GitHub_Stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)  
    **Real-time, per-second systems health and performance monitoring.** Low footprint agent written in C, collecting thousands of metrics per server with sub-1% CPU usage. Zero-configuration auto-detection, pre-configured alert templates, and real-time visualization.
 
-3. 🌟 **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+3. 🌟 **[Grafana](https://github.com/grafana/grafana)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
    **The universal visualization, dashboarding, and alerting layer.** Integrates with Prometheus, Thanos, Mimir, VictoriaMetrics, InfluxDB, Elasticsearch, and 100+ telemetry backends. Provides rich panel templating, unified alert management, and multi-tenant organizational isolation.
 
-4. 🌟 **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
+4. 🌟 **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
    **The CNCF graduated industry standard for cloud-native metrics collection and alert evaluation.** Employs a pull-based HTTP scraping model, dimensional time-series data model, PromQL query language, and service discovery across Kubernetes, Consul, and EC2.
 
-5. 🌟 **[Glances](https://github.com/nicolargo/glances)** [![GitHub stars](https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white)](https://github.com/nicolargo/glances/stargazers)  
+5. 🌟 **[Glances](https://github.com/nicolargo/glances)** [![GitHub_Stars](https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white)](https://github.com/nicolargo/glances/stargazers)  
    **Cross-platform, Python-based terminal and web system monitoring tool.** Provides curses-based CLI, responsive web UI, and REST API. Monitors CPU, memory, load, network, disk I/O, processes, and container runtimes (Docker, Podman) with zero external database dependencies.
 
-6. 🌟 **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
+6. 🌟 **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
    **Full-stack, OpenTelemetry-native observability platform.** Combines metrics, distributed traces, and log aggregation into a unified application. Built upon high-throughput ClickHouse storage, providing an open-source alternative to Datadog and New Relic.
 
-7. 🌟 **[InfluxDB](https://github.com/influxdata/influxdb)** [![GitHub stars](https://img.shields.io/github/stars/influxdata/influxdb?style=social&color=white)](https://github.com/influxdata/influxdb/stargazers)  
+7. 🌟 **[InfluxDB](https://github.com/influxdata/influxdb)** [![GitHub_Stars](https://img.shields.io/github/stars/influxdata/influxdb?style=social&color=white)](https://github.com/influxdata/influxdb/stargazers)  
    **High-performance time-series database engine.** Optimized for real-time querying, high write throughput, and downsampling of IoT and system metrics. InfluxDB 3.0 core is written in Rust and powered by Apache Arrow, DataFusion, and Parquet on object storage.
 
-8. 🌟 **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)  
+8. 🌟 **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub_Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)  
    **CNCF graduated distributed tracing system.** Originally open-sourced by Uber. Monitors complex microservice transactions, diagnoses latency bottlenecks, evaluates root causes, and maps service dependency graphs with native OpenTelemetry OTLP trace support.
 
-9. 🌟 **[Vector](https://github.com/vectordotdev/vector)** [![GitHub stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
+9. 🌟 **[Vector](https://github.com/vectordotdev/vector)** [![GitHub_Stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
    **Ultra-fast, memory-safe observability data pipeline written in Rust.** Ingests, transforms, and routes logs, metrics, and traces at multi-gigabyte throughput. Features Vector Remap Language (VRL) for low-overhead schema mutation and filter rules.
 
-10. 🌟 **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)  
+10. 🌟 **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub_Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)  
     **High-performance, cost-efficient time-series database and Prometheus long-term storage.** Single static executable with zero external dependencies. Consumes up to **10x less RAM than InfluxDB** and provides up to **7x better on-disk compression**. MetricsQL provides a powerful PromQL superset.
 
-11. 🌟 **[Telegraf](https://github.com/influxdata/telegraf)** [![GitHub stars](https://img.shields.io/github/stars/influxdata/telegraf?style=social&color=white)](https://github.com/influxdata/telegraf/stargazers)  
+11. 🌟 **[Telegraf](https://github.com/influxdata/telegraf)** [![GitHub_Stars](https://img.shields.io/github/stars/influxdata/telegraf?style=social&color=white)](https://github.com/influxdata/telegraf/stargazers)  
     **Plugin-driven server agent for collecting and reporting metrics.** Over 300+ community input plugins for databases, messaging systems, hardware sensors, and cloud services, with direct outputs to InfluxDB, Prometheus remote-write, Kafka, and OpenTelemetry.
 
-12. 🌟 **[Thanos](https://github.com/thanos-io/thanos)** [![GitHub stars](https://img.shields.io/github/stars/thanos-io/thanos?style=social&color=white)](https://github.com/thanos-io/thanos/stargazers)  
+12. 🌟 **[Thanos](https://github.com/thanos-io/thanos)** [![GitHub_Stars](https://img.shields.io/github/stars/thanos-io/thanos?style=social&color=white)](https://github.com/thanos-io/thanos/stargazers)  
     **Seamless, non-disruptive long-term metric storage for Prometheus fleets.** Employs a sidecar model attached to running Prometheus instances. Streams historical TSDB blocks directly into S3/GCS/Azure object storage, deduplicates HA instances, and provides a global PromQL query federation.
 
-13. 🌟 **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
+13. 🌟 **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
     **Community-driven, Apache 2.0 open-source search and analytics suite.** Forked from Elasticsearch 7.10, providing large-scale log analytics, anomaly detection, trace analytics, and operational dashboarding without commercial SSPL license restrictions.
 
-14. 🌟 **[Node Exporter](https://github.com/prometheus/node_exporter)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/node_exporter?style=social&color=white)](https://github.com/prometheus/node_exporter/stargazers)  
+14. 🌟 **[Node Exporter](https://github.com/prometheus/node_exporter)** [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/node_exporter?style=social&color=white)](https://github.com/prometheus/node_exporter/stargazers)  
     **The standard Prometheus exporter for hardware and OS metrics.** Exposes CPU core utilization, disk I/O latency, memory fragmentation, network interface queues, filesystem capacity, and systemd service states on port 9100.
 
-15. 🌟 **[Keep](https://github.com/keephq/keep)** [![GitHub stars](https://img.shields.io/github/stars/keephq/keep?style=social&color=white)](https://github.com/keephq/keep/stargazers)  
+15. 🌟 **[Keep](https://github.com/keephq/keep)** [![GitHub_Stars](https://img.shields.io/github/stars/keephq/keep?style=social&color=white)](https://github.com/keephq/keep/stargazers)  
     **Open-source AIOps, alert management, and incident orchestration platform.** Deduplicates, enriches, and correlates alerts across Datadog, Prometheus, Grafana, CloudWatch, and PagerDuty into a centralized workflow automation engine with natural language rule definitions.
 
-16. 🌟 **[OpenStatus](https://github.com/openstatusHQ/openstatus)** [![GitHub stars](https://img.shields.io/github/stars/openstatusHQ/openstatus?style=social&color=white)](https://github.com/openstatusHQ/openstatus/stargazers)  
+16. 🌟 **[OpenStatus](https://github.com/openstatusHQ/openstatus)** [![GitHub_Stars](https://img.shields.io/github/stars/openstatusHQ/openstatus?style=social&color=white)](https://github.com/openstatusHQ/openstatus/stargazers)  
     **Open-source synthetic monitoring and status page platform.** Delivers edge-based latency tracking, status incident reporting, Monitoring-as-Code via declarative YAML, and automated incident subscriber alerts via email, Discord, and Slack.
 
-17. 🌟 **[Alertmanager](https://github.com/prometheus/alertmanager)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/alertmanager?style=social&color=white)](https://github.com/prometheus/alertmanager/stargazers)  
+17. 🌟 **[Alertmanager](https://github.com/prometheus/alertmanager)** [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/alertmanager?style=social&color=white)](https://github.com/prometheus/alertmanager/stargazers)  
     **The standard routing and deduplication engine for the Prometheus ecosystem.** Aggregates firing alert instances, suppresses cascaded alerts via inhibition rules, manages maintenance silences, and routes notifications to Slack, Opsgenie, PagerDuty, email, and webhooks.
 
-18. 🌟 **[Fluent Bit](https://github.com/fluent/fluent-bit)** [![GitHub stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)  
+18. 🌟 **[Fluent Bit](https://github.com/fluent/fluent-bit)** [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)  
     **Fast, lightweight telemetry agent and processor written in C.** Consumes under 10 MB RAM, processing logs, metrics, and traces from container runtimes (Kubernetes CRI, Docker) and forwarding to Prometheus, OpenSearch, Kafka, and OpenTelemetry backends.
 
-19. 🌟 **[Coroot](https://github.com/coroot/coroot)** [![GitHub stars](https://img.shields.io/github/stars/coroot/coroot?style=social&color=white)](https://github.com/coroot/coroot/stargazers)  
+19. 🌟 **[Coroot](https://github.com/coroot/coroot)** [![GitHub_Stars](https://img.shields.io/github/stars/coroot/coroot?style=social&color=white)](https://github.com/coroot/coroot/stargazers)  
     **Zero-code APM and observability engine powered by eBPF.** Inspects Linux kernel network sockets, CPU task delays, memory leaks, and Postgres/MySQL database query latency without code changes or proprietary agent SDKs.
 
-20. 🌟 **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)  
+20. 🌟 **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)  
     **Vendor-agnostic telemetry ingestion, processing, and export proxy.** Acts as a universal gateway supporting OTLP, Prometheus, Zipkin, and Jaeger protocols. Allows SREs to change backends without re-instrumenting application codebases.
 
-21. 🌟 **[Zabbix](https://github.com/zabbix/zabbix)** [![GitHub stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers)  
+21. 🌟 **[Zabbix](https://github.com/zabbix/zabbix)** [![GitHub_Stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers)  
     **Enterprise-grade distributed monitoring platform.** Highly capable across hybrid topologies with native agent, agentless SNMP/IPMI monitoring, proxy collectors, SLA tracking, and scheduled maintenance windows.
 
-22. 🌟 **[Blackbox Exporter](https://github.com/prometheus/blackbox_exporter)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/blackbox_exporter?style=social&color=white)](https://github.com/prometheus/blackbox_exporter/stargazers)  
+22. 🌟 **[Blackbox Exporter](https://github.com/prometheus/blackbox_exporter)** [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/blackbox_exporter?style=social&color=white)](https://github.com/prometheus/blackbox_exporter/stargazers)  
     **Endpoint probing tool for Prometheus.** Probes HTTP, HTTPS, DNS, TCP, and ICMP endpoints on port 9115 to verify SSL certificate expiration, response codes, TLS handshake durations, and round-trip network ping latencies.
 
-23. 🌟 **[Cortex](https://github.com/cortexproject/cortex)** [![GitHub stars](https://img.shields.io/github/stars/cortexproject/cortex?style=social&color=white)](https://github.com/cortexproject/cortex/stargazers)  
+23. 🌟 **[Cortex](https://github.com/cortexproject/cortex)** [![GitHub_Stars](https://img.shields.io/github/stars/cortexproject/cortex?style=social&color=white)](https://github.com/cortexproject/cortex/stargazers)  
     **Horizontally scalable, multi-tenant Prometheus storage system.** CNCF graduated project. While stable and functional, modern greenfield production deployments typically favor **Grafana Mimir**, which was built by the original core maintainers as Cortex's operational successor.
 
-24. 🌟 **[Grafana Mimir](https://github.com/grafana/mimir)** [![GitHub stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
+24. 🌟 **[Grafana Mimir](https://github.com/grafana/mimir)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
     **High-scale, multi-tenant long-term time-series storage for Prometheus.** Engineered for 100M+ active series per tenant. Employs split-microservice architecture (Ingester, Distributor, Store-Gateway, Compactor) writing immutable chunks to object storage (S3/GCS).
 
-25. 🌟 **[Icinga 2](https://github.com/Icinga/icinga2)** [![GitHub stars](https://img.shields.io/github/stars/Icinga/icinga2?style=social&color=white)](https://github.com/Icinga/icinga2/stargazers)  
+25. 🌟 **[Icinga 2](https://github.com/Icinga/icinga2)** [![GitHub_Stars](https://img.shields.io/github/stars/Icinga/icinga2?style=social&color=white)](https://github.com/Icinga/icinga2/stargazers)  
     **Scalable multi-threaded monitoring engine and Nagios successor.** Features an expressive domain-specific configuration language (DSL), REST API, distributed satellite cluster topologies, and robust performance check execution.
 
-26. 🌟 **[Nagios Core](https://github.com/NagiosEnterprises/nagioscore)** [![GitHub stars](https://img.shields.io/github/stars/NagiosEnterprises/nagioscore?style=social&color=white)](https://github.com/NagiosEnterprises/nagioscore/stargazers)  
+26. 🌟 **[Nagios Core](https://github.com/NagiosEnterprises/nagioscore)** [![GitHub_Stars](https://img.shields.io/github/stars/NagiosEnterprises/nagioscore?style=social&color=white)](https://github.com/NagiosEnterprises/nagioscore/stargazers)  
     **The foundational open-source host, service, and network monitoring standard.** Proven architecture running scheduled active check scripts, plugin hooks, escalation trees, and basic notification alerts.
 
-27. 🌟 **[Upright](https://github.com/basecamp/upright)** [![GitHub stars](https://img.shields.io/github/stars/basecamp/upright?style=social&color=white)](https://github.com/basecamp/upright/stargazers)  
+27. 🌟 **[Upright](https://github.com/basecamp/upright)** [![GitHub_Stars](https://img.shields.io/github/stars/basecamp/upright?style=social&color=white)](https://github.com/basecamp/upright/stargazers)  
     **37signals' multi-region synthetic monitoring system.** Executes real Playwright browser automation scripts with video recording upon test failure. Employs a 5-node global consensus design that distinguishes isolated network blips from genuine global service outages for ~$110/month.
 
-28. 🌟 **[Statuz](https://github.com/statuzlabs/statuz)** [![GitHub stars](https://img.shields.io/github/stars/statuzlabs/statuz?style=social&color=white)](https://github.com/statuzlabs/statuz/stargazers)  
+28. 🌟 **[Statuz](https://github.com/statuzlabs/statuz)** [![GitHub_Stars](https://img.shields.io/github/stars/statuzlabs/statuz?style=social&color=white)](https://github.com/statuzlabs/statuz/stargazers)  
     **Minimalist self-hosted status page and uptime check daemon.** Single Go binary pairing HTTP/TCP health checks with incident report tracking, automated uptime calculations, and SQLite/PostgreSQL storage.
 
 ---
@@ -228,9 +228,9 @@ We welcome community contributions, benchmark updates, and new tool additions!
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a descriptive feature branch**: `git checkout -b feature/add-new-monitoring-tool`.
 3. 📝 **Add or update the tool entry** in `README.md`:
-   - Follow the established format (name, link, verified GitHub star badge, and architectural summary).
+   - Follow the established format (name, link, verified GitHub Stars_Badge, and architectural summary).
    - For SaaS tools: include company size/valuation, starting tier pricing, and free tier limits.
-   - For open-source tools: verify star badge syntax `[![GitHub stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)` and ensure descending sort order.
+   - For open-source tools: verify Stars_Badge syntax `[![GitHub_Stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)` and ensure descending sort order.
 4. 🧪 **Check markdown rendering** and verify all links.
 5. 🚀 **Submit a Pull Request** with a concise description of your changes.
 
