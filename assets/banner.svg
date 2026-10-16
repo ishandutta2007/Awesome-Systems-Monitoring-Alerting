@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0D1527"/>
+      <stop offset="100%" stop-color="#060A10"/>
+    </linearGradient>
+
+    <!-- Glowing Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" opacity="0.45"/>
+    </pattern>
+
+    <!-- Radar Sweep / Scan Gradient -->
+    <linearGradient id="scan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Wave Glow Gradient -->
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="35%" stop-color="#06B6D4"/>
+      <stop offset="70%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseNode {
+      0%, 100% { r: 4px; opacity: 0.6; }
+      50% { r: 7.5px; opacity: 1; }
+    }
+    @keyframes radarScan {
+      0% { transform: translateX(-400px); }
+      100% { transform: translateX(1200px); }
+    }
+    @keyframes heartbeat {
+      0% { stroke-dashoffset: 2400; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes blinkLed {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+
+    .pulse-dot-1 { animation: pulseNode 2.2s infinite ease-in-out; }
+    .pulse-dot-2 { animation: pulseNode 3s infinite ease-in-out 0.7s; }
+    .pulse-dot-3 { animation: pulseNode 2.5s infinite ease-in-out 1.2s; }
+    .radar-beam { animation: radarScan 7s infinite linear; }
+    .ecg-line {
+      stroke-dasharray: 1200;
+      animation: heartbeat 5s infinite linear;
+    }
+    .led-green { animation: blinkLed 1.8s infinite ease-in-out; }
+    .led-cyan { animation: blinkLed 2.2s infinite ease-in-out 0.5s; }
+    .pill-float { animation: floatPill 4s infinite ease-in-out; }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="380" fill="url(#bg-grad)" rx="16"/>
+  <rect width="1200" height="380" fill="url(#grid)" rx="16"/>
+
+  <!-- Scanning Radar Beam in Background -->
+  <g class="radar-beam" opacity="0.35">
+    <rect y="0" width="300" height="380" fill="url(#scan-grad)"/>
+  </g>
+
+  <!-- Background Telemetry / Pulse Waves (Positioned behind text) -->
+  <g opacity="0.35">
+    <path class="ecg-line" d="M 0 310 L 180 310 L 220 270 L 250 340 L 290 240 L 320 330 L 350 310 L 600 310 L 630 280 L 660 335 L 700 230 L 730 350 L 770 310 L 980 310 L 1010 260 L 1040 330 L 1070 310 L 1200 310"
+          fill="none" stroke="url(#line-grad)" stroke-width="2.5" filter="url(#glow)"/>
+  </g>
+  <g opacity="0.18">
+    <path d="M 0 330 Q 300 280 600 330 T 1200 330" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+    <path d="M 0 345 Q 300 300 600 345 T 1200 345" fill="none" stroke="#10B981" stroke-width="1"/>
+  </g>
+
+  <!-- Constellation Nodes & Signal Lines (Background accents) -->
+  <g opacity="0.65">
+    <circle cx="140" cy="80" r="5" fill="#10B981" class="pulse-dot-1" filter="url(#soft-glow)"/>
+    <circle cx="1060" cy="90" r="5" fill="#06B6D4" class="pulse-dot-2" filter="url(#soft-glow)"/>
+    <circle cx="1120" cy="240" r="4.5" fill="#8B5CF6" class="pulse-dot-3" filter="url(#soft-glow)"/>
+    <circle cx="80" cy="220" r="4" fill="#3B82F6" class="pulse-dot-2" filter="url(#soft-glow)"/>
+    <line x1="140" y1="80" x2="220" y2="120" stroke="#1E293B" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="1060" y1="90" x2="980" y2="140" stroke="#1E293B" stroke-width="1" stroke-dasharray="3,3"/>
+  </g>
+
+  <!-- Top Metric Status Badges (Floating pill UI) -->
+  <g class="pill-float" transform="translate(425, 34)">
+    <!-- Pill 1: Health Status -->
+    <rect x="0" y="0" width="165" height="28" rx="14" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="16" cy="14" r="4.5" fill="#10B981" class="led-green"/>
+    <text x="30" y="18" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">METRICS STREAMING</text>
+
+    <!-- Pill 2: Observability Standard -->
+    <rect x="180" y="0" width="170" height="28" rx="14" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="196" cy="14" r="4.5" fill="#06B6D4" class="led-cyan"/>
+    <text x="210" y="18" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">SRE OBSERVABILITY</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header Title & Subtitle (Always prominent and unobstructed) -->
+  <g id="foreground-text">
+    <!-- Category Badge -->
+    <rect x="470" y="82" width="260" height="24" rx="12" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1"/>
+    <text x="600" y="98" text-anchor="middle" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">⚡ CURATED ECOSYSTEM DIRECTORY</text>
+
+    <!-- Main Title -->
+    <text x="600" y="156" text-anchor="middle" fill="url(#title-grad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="38" font-weight="900" letter-spacing="-0.5" filter="drop-shadow(0 2px 10px rgba(0,0,0,0.85))">
+      Awesome Systems Monitoring &amp; Alerting
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="196" text-anchor="middle" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500" letter-spacing="0.2">
+      Metrics Ingestion • Intelligent Alert Routing • Distributed Tracing • Long-Term TSDB Storage
+    </text>
+
+    <!-- Focus Tags -->
+    <g transform="translate(600, 230)" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
+      <text fill="#64748B">
+        <tspan fill="#34D399">Enterprise SaaS Platforms</tspan>
+        <tspan fill="#475569">  •  </tspan>
+        <tspan fill="#38BDF8">Battle-Tested OSS Projects</tspan>
+        <tspan fill="#475569">  •  </tspan>
+        <tspan fill="#A78BFA">PromQL &amp; OpenTelemetry Native</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="376" width="1200" height="4" fill="url(#line-grad)" rx="2"/>
+</svg>
